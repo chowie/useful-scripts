@@ -20,28 +20,3 @@ do
 done;
 IFS="$OIFS"
 
-#fullname=$(basename "$2")
-#extension="${fullname##*.}"
-#NEW_NAME="${SOURCE_FILE%.*}"
-
-#ffmpeg -i "$SOURCE_FILE" -c:a aac_latm -b:a 256k "${NEW_NAME}.m4a"
-
-#ffmpeg -i "$SOURCE_FILE" -c:a aac -vcodec copy "${NEW_NAME}.m4a"
-
-
-#echo $SOURCE_FILE
-#echo $NEW_NAME
-#ffmpeg -i "$SOURCE_FILE" -c:a libfdk_aac -b:a 192k -vn "$NEW_NAME.m4a"
-#ffmpeg -i "$SOURCE_FILE" -c:a libfdk_aac -b:a 253k -vn "$NEW_NAME.m4a"
-#ffmpeg -i "$SOURCE_FILE" -c:a libfdk_aac -vn "$NEW_NAME.m4a"
-#ffmpeg -i "$SOURCE_FILE" -vn -acodec copy "$NEW_NAME.m4a"
-#ffmpeg -i "$SOURCE_FILE" -vn -acodec copy "$NEW_NAME.m4a"
-#ffmpeg -i "$SOURCE_FILE" -c:a libfdk_aac -q:a 3 -cutoff 15000 "$NEW_NAME.m4a"
-#ffmpeg -i "$SOURCE_FILE" -c:a libfdk_aac -profile:a aac_he_v2 -q:a 3 -cutoff 18000 "$NEW_NAME.m4a"
-#ffmpeg -i "$SOURCE_FILE" -c:a libfdk_aac -cutoff 18000 "${NEW_NAME}_v2.m4a"
-#ffmpeg -i "$SOURCE_FILE" -c:a libfdk_aac -q:a 3 -cutoff 18000 "${NEW_NAME}_v2.m4a"
-#ffmpeg -i "$SOURCE_FILE" -c:a libfdk_aac -profile:a aac_he_v2 -q:a 3 -cutoff 18000 "${NEW_NAME}_he.m4a"
-#ffmpeg -i "$SOURCE_FILE" -acodec copy "$NEW_NAME.mka"
-#echo $NEW_NAME
-
-
